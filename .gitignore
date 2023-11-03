@@ -1,2 +1,31 @@
-/.git/
-/.vs/
+.vscode/
+# Carpeta bin y obj generada por el compilador
+/bin/
+/obj/
+
+# Archivos generados por el IDE de Visual Studio
+*.suo
+*.user
+*.sln.docstates
+
+# Carpeta de migraciones de Entity Framework
+/Data/Migrations/
+
+# Carpeta de paquetes NuGet
+/packages/
+
+# Archivos de usuario
+*.user
+
+# Archivos de registro y excepciones
+*.log
+
+# Cualquier archivo que comience con un guion bajo
+_*
+
+# Carpeta que contiene las bibliotecas de .NET Core
+# (Esto podría ser ignorado si no deseas incluir las bibliotecas en tu repositorio)
+/packages/
+
+# Carpeta de resguardo (backup) generada por algunos editores
+*~
